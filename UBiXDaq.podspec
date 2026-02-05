@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = 'UBiXDaq'
-  s.version     = '2.5.0'
+  s.version     = '2.5.1'
   s.license     = 'MIT'
   s.authors     = {'ubixai' => 'pub.dev@ubixai.com'}
   s.homepage    = 'https://github.com/ubixai/UBiXDaq'
