@@ -13,7 +13,7 @@
 #import "UbiXAdBase.h"
 
 
-#define UBIX_DAQ_VERSION @"2.5.1"
+#define UBIX_DAQ_VERSION @"2.6.0"
 
 //! Project version number for UbiXDaq.
 FOUNDATION_EXPORT double UbiXDaqVersionNumber;
