@@ -76,6 +76,10 @@ void UXLogError(NSString * _Nonnull fmt, ...);
 
 + (unsigned long long)getMemoryUsage;
 
++ (float)getTotalDiskSpace;
+
++ (float)getFreeDiskSpace;
+
 + (NSInteger)getCurrentNetState;
 
 + (NSString *)getBootUpTime;
