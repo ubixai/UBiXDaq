@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 1.0'
   s.libraries   = ["z", "sqlite3"]
   # spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
+  s.pod_target_xcconfig    = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig   = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.ios.vendored_framework = 'UbiXDaq.xcframework'
   # s.resources   = ['Images/*.png', 'Sounds/*']
